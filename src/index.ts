@@ -5,5 +5,6 @@ export * from './bull-schedule.constants';
 export * from './bull-schedule.orchestrator';
 export * from './bull-schedule.accessor';
 export * from './bull-schedule.explorer';
+export * from './bull-schedule.symbols';
 
 export * from './bull-schedule.module';

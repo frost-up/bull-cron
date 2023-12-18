@@ -1,8 +1,8 @@
 import { Inject, Injectable, Logger } from '@nestjs/common';
 import { Job, Queue, Worker } from 'bullmq';
 import { BullScheduleCronOptions } from './interfaces/bull-schedule-cron.options';
-import { REDIS_OPTIONS } from './bull-schedule.module';
 import { ConnectionOptions } from 'bullmq/dist/esm/interfaces/redis-options';
+import { REDIS_OPTIONS } from './bull-schedule.symbols';
 
 @Injectable()
 export class BullScheduleOrchestrator {

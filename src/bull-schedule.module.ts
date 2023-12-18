@@ -4,8 +4,7 @@ import { BullScheduleAccessor } from './bull-schedule.accessor';
 import { BullScheduleOrchestrator } from './bull-schedule.orchestrator';
 import { BullScheduleExplorer } from './bull-schedule.explorer';
 import { ConnectionOptions } from 'bullmq/dist/esm/interfaces/redis-options';
-
-export const REDIS_OPTIONS = Symbol('REDIS_OPTIONS');
+import { REDIS_OPTIONS } from './bull-schedule.symbols';
 
 @Module({
   imports: [DiscoveryModule],
