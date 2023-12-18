@@ -1,6 +1,6 @@
 {
   "name": "@frostup/bull-cron",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A NestJS module for scheduling BullMQ jobs using cron expressions",
   "author": "Bart van Vliet",
   "private": false,
