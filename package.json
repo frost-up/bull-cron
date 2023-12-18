@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A NestJS module for scheduling BullMQ jobs using cron expressions",
   "author": "Bart van Vliet",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
